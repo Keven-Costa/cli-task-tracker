@@ -37,12 +37,14 @@ python3 task-cli.py delete 2
 ```
 
 ### Mark Task Status
+To be able to mark the statuses of a task you need to specify the ID.
+
 You can mark the statuses as:
 - **in progress:**  ```mark-in-progress```
 - **done:** ``` mark-done```
 
 ```bash
-python3 task-cli.py mark-done
+python3 task-cli.py mark-done 5
 
 ```
 
